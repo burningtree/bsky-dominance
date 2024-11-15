@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Load data
+        run: pnpm run data
+
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
