@@ -1,0 +1,3 @@
+# AT Protocol - Bluesky PBC Dominance Index
+
+This page provides a measurement of Bluesky PBC's control over various components of the AT Protocol social network infrastructure. It tracks the distribution of power across key protocol elements, helping to assess the current state of decentralization and identify areas where centralized control may need to be reduced to achieve the protocol's long-term vision of a truly distributed social network.
