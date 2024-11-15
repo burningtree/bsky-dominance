@@ -14,10 +14,13 @@
         },
         {
             title: "Identity",
-            dominance: 99.9,
+            dominance: 99.99,
             approx: true,
-            caption: "did:plc is fully controlled by Bluesky PBC",
-            sources: ["https://web.plc.directory/"],
+            caption:
+                "did:plc is fully controlled by Bluesky PBC. did:web method using ~20 accounts",
+            sources: [
+                "https://bsky.app/profile/laurenshof.online/post/3layw7yowz22t",
+            ],
         },
         {
             title: "Handles",
@@ -25,7 +28,7 @@
                 100 -
                 data.customHandleCount / (data.userCount / 100)
             ).toFixed(2),
-            caption: `${numberFmt(data.userCount - data.customHandleCount)} out of ${numberFmt(data.userCount)} (${numberFmt(data.customHandleCount)} non-bsky handles)`,
+            caption: `${numberFmt(data.userCount - data.customHandleCount)} out of ${numberFmt(data.userCount)} (${numberFmt(data.customHandleCount)} non-bsky.social handles)`,
             sources: ["https://blue.mackuba.eu/directory/"],
         },
         {
@@ -59,7 +62,7 @@
             sources: [],
         },
         {
-            title: "Bluesky Client Diversity",
+            title: "Bluesky Clients",
             dominance: 98,
             approx: true,
             caption:
