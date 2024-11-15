@@ -115,6 +115,10 @@
     </div>
 {/snippet}
 
+<svelte:head>
+    <title>ATP/bsky Dominance Index</title>
+</svelte:head>
+
 <div class="max-w-3xl mx-auto mt-10 px-4 pb-16">
     <h1 class="text-4xl font-bold">
         AT Protocol - Bluesky PBC Dominance Index
