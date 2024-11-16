@@ -18,11 +18,18 @@ async function getPDSStats() {
     }
 }
 
+async function getDidWebCount() {
+    const resp = await fetch('https://raw.githubusercontent.com/mary-ext/atproto-scraping/refs/heads/trunk/state.json')
+    const json = await resp.json()
+    return Object.keys(json.firehose.didWebs).length
+}
+
 async function run() {
 
     const output = {
         userCount: await getUserCount(),
         pdsStats: await getPDSStats(),
+        didWebCount: await getDidWebCount(),
         customHandleCount: 186_000,
     }
 

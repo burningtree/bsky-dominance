@@ -14,12 +14,15 @@
         },
         {
             title: "Identity",
-            dominance: 99.99,
+            dominance: (
+                100 -
+                data.didWebCount / (data.userCount / 100)
+            ).toFixed(2),
             approx: true,
-            caption:
-                "did:plc is fully controlled by Bluesky PBC. did:web method using ~20 accounts",
+            caption: `did:plc is fully controlled by Bluesky PBC. did:web method using ${numberFmt(data.didWebCount)} accounts`,
             sources: [
                 "https://bsky.app/profile/laurenshof.online/post/3layw7yowz22t",
+                "https://github.com/mary-ext/atproto-scraping/blob/trunk/state.json",
             ],
         },
         {
