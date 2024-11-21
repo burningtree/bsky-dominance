@@ -155,6 +155,6 @@
     </div>
 
     <div class="">
-        Author: <a href="https://bsky.app/profile/tree.fail">@tree.fail</a>
+        Author: <a href="https://bsky.app/profile/tree.fail">@tree.fail</a> | <a href="https://github.com/burningtree/bsky-dominance">Source code</a>
     </div>
 </div>
