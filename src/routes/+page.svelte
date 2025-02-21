@@ -157,4 +157,7 @@
     <div class="">
         Author: <a href="https://bsky.app/profile/tree.fail">@tree.fail</a> | <a href="https://github.com/burningtree/bsky-dominance">Source code</a>
     </div>
+    <div class="mt-4">
+      Generation time: {(new Date).toISOString()}
+    </div>
 </div>
