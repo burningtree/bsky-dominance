@@ -8,7 +8,7 @@
     const categories = [
         {
             title: "Protocol Development",
-            dominance: 100,
+            dominance: 95,
             caption: "Protocol development is fully controlled by Bluesky PBC",
             sources: ["https://github.com/bluesky-social/atproto"],
         },
@@ -48,7 +48,7 @@
         },
         {
             title: "Relays",
-            dominance: 99.9,
+            dominance: 98,
             approx: true,
             caption:
                 "This is just an estimate, we don't have enough data at the moment",
@@ -58,14 +58,6 @@
         },
         {
             title: "AppViews",
-            dominance: 99.9,
-            approx: true,
-            caption:
-                "This is just an estimate, we don't have enough data at the moment",
-            sources: [],
-        },
-        {
-            title: "Bluesky Clients",
             dominance: 98,
             approx: true,
             caption:
@@ -73,8 +65,16 @@
             sources: [],
         },
         {
+            title: "Bluesky Clients",
+            dominance: 93,
+            approx: true,
+            caption:
+                "This is just an estimate, we don't have enough data at the moment",
+            sources: [],
+        },
+        {
             title: "Bluesky Moderation",
-            dominance: 80,
+            dominance: 75,
             approx: true,
             caption:
                 "This is just an estimate, we don't have enough data at the moment",
